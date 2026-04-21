@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wordly Dictionary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>Wordly</h1>
+    <button id="themeBtn" aria-label="Toggle Theme">🌙 Theme</button>
+  </header>
+
+  <main class="container">
+    <section class="search-section">
+      <form id="searchForm">
+        <input
+          type="text"
+          id="wordInput"
+          placeholder="Search for a word..."
+          aria-label="Search for a word"
+          autocomplete="off"
+          autofocus
+        />
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section id="message"></section>
+
+    <section id="results" class="results"></section>
+
+    <section class="favorites-section">
+      <h2>Saved Favorites</h2>
+      <ul id="favoritesList"></ul>
+    </section>
+  </main>
+
+  <script src="src/index.js"></script>
+</body>
+</html>
