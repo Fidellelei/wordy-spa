@@ -68,5 +68,4 @@ wordly-spa/
 - Favorite export/import
 
 ## Author
-
-Your Name
+Fidel Chepkurui
